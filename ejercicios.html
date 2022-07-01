@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Javascript</title>
+    <script src="assets\js\funciones.js"></script>
+    <link rel="stylesheet" href="assets\css\perso.css">
+</head>
+<body>
+<h1>Trabajo hecho por Juan Pablo Gutierrez y Alan Farías</h1>
+
+
+    <h4>Ejercicio 1:</h4>
+
+    <label for="ej1_n1">Número 1:</label>
+    <input type="number" id="ej1_n1">
+
+    <label for="ej1_n2">Número 2:</label>
+    <input type="number" id="ej1_n2">
+
+    <label for="ej1_n3">Número 3:</label>
+    <input type="number" id="ej1_n3">
+    <button onclick="func_ej1()">Comparar</button>
+    <label for="ej1_mayor">El mayor es:</label>
+    <input type="number" id="ej1_mayor">
+    <label for="ej1_menor">El menor es:</label>
+    <input type="number" id="ej1_menor">
+
+    
+    <br>
+    <h4>Ejercicio 2:</h4>
+
+    <label for="ej2_n1">Número 1:</label>
+    <input type="number" id="ej2_n1">
+
+    <label for="ej2_n2">Número 2:</label>
+    <input type="number" id="ej2_n2">
+
+    <button onclick=func_ej2()>Sumar</button>
+    <label for="ej2_resultado">El resultado:</label>
+    <input type="number" id="ej2_resultado">
+
+
+    <br>
+    <h4>Ejercicio 3:</h4>
+
+    <label for="ej3_pal">Ingrese una palabra:</label>
+    <input type="text" id="ej3_pal">
+
+    <label for="ej3_n1">Número de repeticiones:</label>
+    <input type="number" id="ej3_n1">
+
+    <button onclick="func_ej3()">Repetir</button>
+    <br>
+    <label for="ej3_resultado">El resultado:</label>
+    <input type="text" id="ej3_resultado" size="100">
+
+    
+    <br>
+
+    <h4>Ejercicio 4:</h4>
+
+    <label for="ej4_cel">Ingrese una temperatura en Celcius</label>
+    <input type="number" id="ej4_cel">
+
+    <button onclick="func_celfar()">Convertir a Fahrenheit</button>
+
+    <label for="ej4_res_1">Fahrenheit</label>
+    <input type="number" id="ej4_res_1">
+
+    
+    <br>
+    <label for="ej4_far">Ingrese una temperatura en Fahrenheit</label>
+    <input type="number" id="ej4_far">
+
+    <button onclick="func_farcel()">Convertir a Celcius</button>
+
+    <label for="ej4_res_2">Celcius</label>
+    <input type="number" id="ej4_res_2">
+
+
+    <br>
+    
+    <h4>Ejercicio 5:</h4>
+    
+    <label for="ej5_pal">Palabra</label>
+    <input type="text" id="ej5_pal">
+
+    <button onclick="func_ej5()">Contar</button>
+
+    <label for="ej5_nums">Caracteres</label>
+    <input type="text" id="ej5_nums">
+
+
+
+    <br>
+
+    <h4>Ejercicio 6:</h4>
+    
+    <br>
+    <label for="ej6_num"></label>
+    <input type="number" id="ej6_num">
+
+    <button onclick="func_ej6()">Par o Impar</button>
+
+    <label for="ej6_res"></label>
+    <input type="text" id="ej6_res">
+
+
+    <br>
+
+    <h4>Ejercicio 7:</h4>
+
+    <label for="ej7_num1">Primer número</label>
+    <input type="number" id="ej7_num1">
+
+    <label for="ej7_num2">Segundo número</label>
+    <input type="number" id="ej7_num2">
+
+    <button onclick="func_ej7()"> Múltiplos de 3 comprendidos entre ambos</button>
+
+    <label for="ej7_mult">Múltiplos de 3</label>
+    <input type="text" id="ej7_mult">
+    
+    <br>
+    <h4>Ejercicio 8:</h4>
+
+    <label for="ej8_n1">Número:</label>
+    <input type="number" id="ej8_n1">
+
+    <button onclick="func_ej8()">Ver primos</button>
+    <label for="ej8_prim">Los numeros primos son:</label>
+    <input type="text" id="ej8_prim" size="100">
+
+    
+    <br>
+
+    <h4>Ejercicio 9:</h4>
+
+    <label for="ej9_nom">Nombre:</label>
+    <input type="text" id="ej9_nom">
+    
+    <label for="ej9_ape">Apellido:</label>
+    <input type="text" id="ej9_ape">
+
+    <label for="ej9_edad">Edad:</label>
+    <input type="number" id="ej9_edad">
+
+    <label for="ej9_ciu">Ciudad:</label>
+    <input type="text" id="ej9_ciu">
+
+    <button onclick="func_ej9()">Crear párrafo</button>
+    <br>
+    <label for="ej9_parra">Párrafo:</label>
+    <input type="text" id="ej9_parra" size="100">
+
+    
+    <br>
+
+    <h4>Ejercicio 10:</h4>
+
+    <label for="ej10_n1">Número:</label>
+    <input type="number" id="ej10_n1">
+
+    <label for="ej10_n2">Número:</label>
+    <input type="number" id="ej10_n2">
+
+    <button onclick="func_ej10()">Ver elementos</button>
+    <label for="ej10_entre">Los elementos que los separan son:</label>
+    <input type="text" id="ej10_entre" size="100">
+
+    <br>
+    <br>
+    <button onclick="window.location.href='index.html'"><h3>Ir a la página principal</h3></button>
+</body>
+</html>
