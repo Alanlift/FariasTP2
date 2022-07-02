@@ -1,10 +1,4 @@
-    function sumarr(a,b){
-    alert(a+b);
-    alert("Terminé")
-}
-
-
-
+//Aqui están las funciones del tp javascript
     function func_ej1(){
         let ej1_c1 = parseFloat(document.getElementById('ej1_n1').value);
         let ej1_c2 = parseFloat(document.getElementById('ej1_n2').value);
@@ -107,7 +101,7 @@
                         if (ej10_for==(ej10_n2-1)){
                          ej10_ac += ej10_for;
                      } else{
-                            ej10_ac += ej10_for + ",";
+                            ej10_ac += ej10_for + ", ";
                         }
                  }
                  document.getElementById("ej10_entre").value = ej10_ac;
