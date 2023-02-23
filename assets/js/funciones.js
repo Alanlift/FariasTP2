@@ -122,8 +122,8 @@
             document.getElementById("animate").value = "-Me gustan los videojuegos y la programación.\n-Actualmente me encuentro estudiando la 'Licenciatura\nen Producción de Videojuegos y Entretenimiento Digital' en la UNRaf.\n -Aguanten las webs de los 2000.";
             let elem = document.getElementById("animate");
             let pos = 0.1;
-            elem.style.top = 450 + 'px';
-            elem.style.left = 745 + 'px';
+            elem.style.top = 275 + 'px';
+            elem.style.left = 850 + 'px';
             elem.style.height = 120 + 'px';
             const id = setInterval(frame, 30);
             function frame() {
@@ -143,8 +143,8 @@
             function frame() {
             if (pos < 50) {
                 document.getElementById("animate").value = "";
-                elem.style.top = 500 + 'px';
-                elem.style.left = 700 + 'px';
+                elem.style.top = 325 + 'px';
+                elem.style.left = 800 + 'px';
                 elem.style.height = 0 + 'px';
                 elem.style.width = 0 + 'px';
                 clearInterval(id);

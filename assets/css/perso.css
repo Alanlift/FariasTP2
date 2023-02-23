@@ -11,13 +11,7 @@ header{background-color: rgb(131, 0, 246);font-size:40px;text-align:right}
     top: 275px;
     left: 650px;
   }
-  .buttons .button3 {
-    position: absolute;
-    top: 450px;
-    left: 550px;
-    border-radius: 125px;
-  }
-  .buttons .button3text {
+  .buttons .button2text {
     width: 0px;
     height: 0px;
     font-size:20px;
@@ -28,4 +22,10 @@ header{background-color: rgb(131, 0, 246);font-size:40px;text-align:right}
     background-color: #f1fdf8;
     overflow: hidden;
     resize: none;
+  }
+  .buttons .button3 {
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    border-radius: 125px;
   }
